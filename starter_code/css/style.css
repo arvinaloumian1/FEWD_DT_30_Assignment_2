@@ -50,31 +50,258 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+     background-size: cover;
+     padding-left: 200px;
+     padding-right: 200px;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+.main_frame{
+border: 1px solid navy;
+margin:auto;
+/*padding-top: 1px;
+padding-bottom: 1px;*/
+}
 
 /* Center the container */
-#container {
+#Headercontainer {
+ 
+}
+
+.Headercontainer_div{
+    /*background-size: 100% 100%;*/
+    
+  background-repeat: no-repeat;
+  background: url(../images/header_bg.jpg) no-repeat center top;
+  width: auto;
+  max-width: 100%;
+  /*margin: auto;*/
+  padding-top:   10px;
+  height: 700px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  /*
+
+  background: url(../images/header_bg.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  */
+ 
+
+}
+.HeaderText{
   width: 100%;
+  height:50px;
+  padding-left: 10%;
+  color:  white;
+  font-weight: 800 ;
+  font-size:   24px;
+  font-family: "Open Sans", sans-serif; 
+}
+
+.Top_intro{
+  width: 100%;
+  height:100px;
+  color:  white;
+  font-size:   24px;
+  text-align:   center; 
+  padding-top:  50px;
+}
+
+.GetitNow_Button_Section{
+ height:100px;
+ width: 100%;
+ padding-top: 30px;
+}
+
+.GetitNow_Button{
+  height:30px;
+  width: 100px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: yellow;
   margin: auto;
-  height: 500px;
+  color: navy;
+  font-family: "Open Sans", sans-serif; 
+  font-weight: 800 ;
+  font-size:   14px;
+   border-radius: 5px;
+}
+
+.Text_Benefits{
+  width: 100%;
+  min-height:300px;   
+ /* border:  1px solid black;
+  background-color:   gray;*/
+}
+
+.Text_Benefits_div{
+  padding-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-right: 63px;
+  font-weight: 600 ;
+  font-size:   24px;
+  font-family: "Open Sans", sans-serif; 
+ color: navy;
+}
+
+.Text_Benefits_div_list{
+  padding-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 1px;
+  padding-right: 50%;
+  font-weight: 300 ;
+  font-size:   13px;
+  font-family: "Open Sans", sans-serif; 
+  color: rgba(0, 0, 128, 0.8);
+}
+
+.Testimony{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*max-height:200px; 
+  max-width:100%; 
+  height: auto; 
+  width: auto;  */
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.Testimony_div{
+  text-align: center;
+  padding-left: 35%;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-right: 35%;
+  font-weight: 300;
+  font-size:   18px;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif; 
+  color: white;
+}
+.Testimony_div_Writer{
+  text-align: center;
+  padding-left: 35%; 
+  padding-bottom: 0px;
+  padding-right: 35%;
+  font-size:   18px;
+  font-family: "Open Sans", sans-serif; 
+  color: white;
+}
+
+.SignUp{
+ height:75px;
+ width: auto;
+ max-width:100%; 
+/*width: 100%;
+ padding-left: 2px;
+ padding-right: 2px;*/
+ margin: 0 1px 0 1px;
 
 }
 
-header {
+.SignUp_div{
+ height:75px;
+ background-color: rgb(225, 239, 31);
+ border: 3px solid rgb(225, 239, 31);
+ padding-top: 16px;
+}
 
+.SignUp_div_button{
+  width: 190px;
+  height:36px;
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+  background-color: #162A59;
+  font-weight: 800;
+  font-size:   12px;
+  font-family: "Open Sans", sans-serif; 
+  color: white;
+  border-radius: 5px;
 }
 
 footer {
-
+ width: auto;
+ max-width: 100%;  
+ max-height:  220px;
+ text-align: center;
+ /*padding-left: 2px;
+ padding-right: 2px;*/
+ margin: 0 1px 1px 1px;
+ color: white;
 }
 
+.footer_top_div{
+  max-height:  220px;
+  height: auto;
+  background-color: #080712; 
+  border: 1px solid black;
+}
+
+.footer_top_txt{
+  text-align: center;
+  margin-top: 35px; 
+  font-weight: 800;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif; 
+  color: rgb(225, 239, 31);
+}
+
+.footer_icons{
+height: 80px;
+padding-top: 30px;
+}
+
+.footer_twitter_filler{
+float: left;
+width: 45%;
+height: 80px;
+ 
+}
+
+.footer_twitter{
+background: url(../images/twitter.png) no-repeat center top;
+display: inline-block;
+height: 80px;
+width: 5%;
+float: left;
+ 
+}
+
+.footer_facebook{
+background: url(../images/facebook.png) no-repeat center top;
+height: 80px;
+ width: 5%;
+ 
+float: left;
+}
+
+.footer_facebook_filler{
+float: left;
+width: 45%;
+height: 80px;
+ 
+}
+
+.footer_copyRight{
+margin-top: 12px;
+font-size: 9px;
+font-family: "Open Sans", sans-serif; 
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
